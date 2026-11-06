@@ -6,7 +6,7 @@ def add_task(task):
 
 def display_tasks(tasks):
     if not tasks:
-        return "No tasks available."
+        return "No tasks available here."
 
     return "\n".join(tasks)
 
